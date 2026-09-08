@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.8.6",
+          "buildVersion": "38",
+          "date": "2026-09-08T14:46:34Z",
+          "localizedDescription": "Dayline 1.8.6\n- Share extension hardening for SideStore/AltStore: the App Group is now OS-verified (probed from both the extension's and the app's signed profiles)\n- New: gear menu > Share extension status - shows exactly which container each side resolved",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.6/Dayline-1.8.6.ipa",
+          "size": 2665017,
+          "sha256": "0b6fc70e16e684b44e40819cf9ba1daa88cf3cdc8a0bb3ee4a7e512a53041340",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.8.5",
           "buildVersion": "37",
           "date": "2026-09-08T13:53:49Z",
