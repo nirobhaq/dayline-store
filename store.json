@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.8.7",
+          "buildVersion": "39",
+          "date": "2026-09-08T14:56:31Z",
+          "localizedDescription": "Dayline 1.8.7\n- Share extension: App Group now discovered from the signed binary's own entitlements (works without an embedded profile, e.g. SideStore) plus team-ID rename patterns, each verified with the OS\n- Share extension status now lists every candidate group with ✓/✗",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.7/Dayline-1.8.7.ipa",
+          "size": 2668732,
+          "sha256": "7336ec69b898fc8751ad5cc248ad71b7f4dfa88a51943e20a7780080239d75ef",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.8.6",
           "buildVersion": "38",
           "date": "2026-09-08T14:46:34Z",
