@@ -1,0 +1,34 @@
+{
+  "name": "Dayline",
+  "subtitle": "Personal daily dashboard — tasks, bookmarks, everything synced.",
+  "description": "Dayline is a personal daily dashboard: to-dos with sections, tags and reminders, a bookmark library with rich previews, all synced in real time across Mac and iPhone.",
+  "iconURL": "https://raw.githubusercontent.com/nirobhaq/dayline-store/main/icon.png",
+  "tintColor": "#2F9BE8",
+  "featuredApps": ["com.nirobhaq.DaylineCloud"],
+  "apps": [
+    {
+      "name": "Dayline",
+      "bundleIdentifier": "com.nirobhaq.DaylineCloud",
+      "developerName": "Nirob Haq",
+      "subtitle": "Personal daily dashboard — tasks, bookmarks, everything synced.",
+      "localizedDescription": "Dayline is a personal daily dashboard: to-dos with sections, tags and reminders, a bookmark library with rich previews, all synced in real time across Mac and iPhone.",
+      "iconURL": "https://raw.githubusercontent.com/nirobhaq/dayline-store/main/icon.png",
+      "tintColor": "#2F9BE8",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.8.4",
+          "buildVersion": "36",
+          "date": "2026-09-08T13:47:59Z",
+          "localizedDescription": "Dayline 1.8.4\n- To-Do first with auto-focused quick-add (pinned section)\n- Move tasks between sections (drag + menu), synced ordering\n- Task tags with two-way registry sync, reminders with notification actions\n- Section header bands with progress, persisted collapse state\n- Sync status in the gear menu, keyboard-aware bottom bar\n- Optimized sync engine (payload memoization, watchdog)",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.4/Dayline-1.8.4.ipa",
+          "size": 2647531,
+          "sha256": "495d0e7c0931f1c988e5818be451f1371cf24b26036b7ff669f3d8f396d50404",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": { "entitlements": [], "privacy": {} }
+    }
+  ],
+  "news": []
+}
