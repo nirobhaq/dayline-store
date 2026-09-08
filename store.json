@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.8.8",
+          "buildVersion": "40",
+          "date": "2026-09-08T15:13:03Z",
+          "localizedDescription": "Dayline 1.8.8\n- Share extension no longer needs an App Group: captures go straight to your Dayline sync server, so Safari shares work under SideStore\n- Clear in-extension error if sync credentials aren't reachable",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.8/Dayline-1.8.8.ipa",
+          "size": 2668732,
+          "sha256": "bac5f8d9bd75595465ea6e6030ecc7cbd371eb01ac764fbc13640d70e89819f5",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.8.7",
           "buildVersion": "39",
           "date": "2026-09-08T14:56:31Z",
