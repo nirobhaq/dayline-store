@@ -4,7 +4,9 @@
   "description": "Dayline is a personal daily dashboard: to-dos with sections, tags and reminders, a bookmark library with rich previews, all synced in real time across Mac and iPhone.",
   "iconURL": "https://raw.githubusercontent.com/nirobhaq/dayline-store/main/icon.png",
   "tintColor": "#2F9BE8",
-  "featuredApps": ["com.nirobhaq.DaylineCloud"],
+  "featuredApps": [
+    "com.nirobhaq.DaylineCloud"
+  ],
   "apps": [
     {
       "name": "Dayline",
@@ -17,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.8.5",
+          "buildVersion": "37",
+          "date": "2026-09-08T13:53:49Z",
+          "localizedDescription": "Dayline 1.8.5\n- Share extension now works under SideStore/AltStore: the App Group is resolved at runtime from the signed profile, so re-signers that rename the group no longer break Safari captures",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.5/Dayline-1.8.5.ipa",
+          "size": 2649964,
+          "sha256": "9038cc9cc4379302852f83d49d1fe75760244691eb3660a3df065cb331f70d00",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.8.4",
           "buildVersion": "36",
           "date": "2026-09-08T13:47:59Z",
@@ -27,7 +39,10 @@
           "minOSVersion": "17.0"
         }
       ],
-      "appPermissions": { "entitlements": [], "privacy": {} }
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     }
   ],
   "news": []
