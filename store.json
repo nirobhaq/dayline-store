@@ -12,17 +12,27 @@
       "name": "Dayline",
       "bundleIdentifier": "com.nirobhaq.DaylineCloud",
       "developerName": "Nirob Haq",
-      "subtitle": "Personal daily dashboard — tasks, bookmarks, everything synced.",
-      "localizedDescription": "Dayline is a personal daily dashboard: to-dos with sections, tags and reminders, a bookmark library with rich previews, all synced in real time across Mac and iPhone.",
+      "subtitle": "Your day, on every device — to-dos, bookmarks, reminders, self-hosted sync.",
+      "localizedDescription": "Dayline is a personal daily dashboard for iPhone and Mac.\n\nTO-DO — tasks in named sections with a Pinned section on top, quick-add focused on launch, drag or menu to move tasks between sections, colour tags shared with the Mac, and reminders that fire as notifications with Mark Complete / Dismiss actions.\n\nBOOKMARKS — a library of links and notes with rich previews, comments and tags, searchable, and fed by a Safari share extension that saves from any app.\n\nSYNC — every change goes to your own sync server (a small Cloudflare Worker) and fans out live to every device over a WebSocket. Works offline and reconciles when back online. No iCloud, no third-party services, no analytics.\n\nInstall tip: choose \"Keep App Extensions (Use Main Profile)\" in SideStore so the share extension can use the app's credentials.",
       "iconURL": "https://raw.githubusercontent.com/nirobhaq/dayline-store/main/icon.png",
       "tintColor": "#2F9BE8",
       "category": "utilities",
       "versions": [
         {
+          "version": "1.8.9",
+          "buildVersion": "41",
+          "date": "2026-09-09T05:53:19Z",
+          "localizedDescription": "Share extension: instant, never doubles, takes comments\n• Saves are instant — the extension no longer downloads the whole sync change log to store one link; it sends the app's current sync position and gets a handful of rows back\n• No more duplicates — Save locks on first tap (spinner + Saving…) and each share builds exactly one sync record, so a second tap or a retry can't create two bookmarks\n• New Comment box — a note added in the share sheet lands in the bookmark's comment field\n• Cleaner sheet — the page behind is dimmed instead of blacked out; Save is now the large full-width button\n• Opens faster — the App Group check is cached per signed build and memory-mapped instead of re-reading the app binary every time\n• The app keeps its sync position in the keychain for the extension (refreshed on background and after each sync)",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.9/Dayline-1.8.9-unsigned.ipa",
+          "size": 2710142,
+          "sha256": "0757df3dac93586e09193c965481cf16d1b10903e7ab5e718ae840a2d56658a2",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.8.8",
           "buildVersion": "40",
           "date": "2026-09-08T15:13:03Z",
-          "localizedDescription": "Dayline 1.8.8\n- Share extension no longer needs an App Group: captures go straight to your Dayline sync server, so Safari shares work under SideStore\n- Clear in-extension error if sync credentials aren't reachable",
+          "localizedDescription": "Share extension works under SideStore\n• Captures upload directly to your sync server when no App Group is available — the same record the app emits, so the Mac and every device receive it through normal sync\n• Three-tier save: App Group queue → direct upload → dayline:// deep link, with a plain error if none can run\n• The app mirrors its sync server address into the keychain for the extension",
           "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.8/Dayline-1.8.8.ipa",
           "size": 2685130,
           "sha256": "ca5f6bbe4871dbce37754177f7858eaecedfd410128a0cf33ad88434afa46d81",
@@ -32,7 +42,7 @@
           "version": "1.8.7",
           "buildVersion": "39",
           "date": "2026-09-08T14:56:31Z",
-          "localizedDescription": "Dayline 1.8.7\n- Share extension: App Group now discovered from the signed binary's own entitlements (works without an embedded profile, e.g. SideStore) plus team-ID rename patterns, each verified with the OS\n- Share extension status now lists every candidate group with ✓/✗",
+          "localizedDescription": "App Group discovery from the signed binary\n• The extension reads the App Group from the entitlements embedded in the signed executable (own + host) plus team-ID rename patterns, each verified with the OS\n• Share extension status lists every candidate with ✓/✗\n• Superseded by 1.8.8 — diagnostics proved SideStore grants no App Group at all on a free Apple ID",
           "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.7/Dayline-1.8.7.ipa",
           "size": 2668732,
           "sha256": "7336ec69b898fc8751ad5cc248ad71b7f4dfa88a51943e20a7780080239d75ef",
@@ -42,7 +52,7 @@
           "version": "1.8.6",
           "buildVersion": "38",
           "date": "2026-09-08T14:46:34Z",
-          "localizedDescription": "Dayline 1.8.6\n- Share extension hardening for SideStore/AltStore: the App Group is now OS-verified (probed from both the extension's and the app's signed profiles)\n- New: gear menu > Share extension status - shows exactly which container each side resolved",
+          "localizedDescription": "OS-verified App Group probing + diagnostics\n• App Group candidates probed from both the extension's and the app's signed profiles and confirmed with the OS before use\n• New: Gear menu → Share extension status… shows which container each side resolved and when the extension last ran",
           "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.6/Dayline-1.8.6.ipa",
           "size": 2665017,
           "sha256": "0b6fc70e16e684b44e40819cf9ba1daa88cf3cdc8a0bb3ee4a7e512a53041340",
@@ -52,7 +62,7 @@
           "version": "1.8.5",
           "buildVersion": "37",
           "date": "2026-09-08T13:53:49Z",
-          "localizedDescription": "Dayline 1.8.5\n- Share extension now works under SideStore/AltStore: the App Group is resolved at runtime from the signed profile, so re-signers that rename the group no longer break Safari captures",
+          "localizedDescription": "Runtime App Group resolution\n• The App Group ID is read from the embedded provisioning profile at runtime instead of being hard-coded, so re-signers that rename groups don't break Safari captures",
           "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.5/Dayline-1.8.5.ipa",
           "size": 2649964,
           "sha256": "9038cc9cc4379302852f83d49d1fe75760244691eb3660a3df065cb331f70d00",
@@ -62,7 +72,7 @@
           "version": "1.8.4",
           "buildVersion": "36",
           "date": "2026-09-08T13:47:59Z",
-          "localizedDescription": "Dayline 1.8.4\n- To-Do first with auto-focused quick-add (pinned section)\n- Move tasks between sections (drag + menu), synced ordering\n- Task tags with two-way registry sync, reminders with notification actions\n- Section header bands with progress, persisted collapse state\n- Sync status in the gear menu, keyboard-aware bottom bar\n- Optimized sync engine (payload memoization, watchdog)",
+          "localizedDescription": "First SideStore release\n• To-Do tab first, with quick-add focused in the Pinned section on launch\n• Move tasks between sections by drag or from the task menu; ordering syncs\n• Task tags with two-way sync to the Mac; reminders with notification actions\n• Section header bands with progress; collapsed state persists\n• Sync status in the gear menu; keyboard-aware bottom bar\n• Sync engine tuned for low CPU and memory",
           "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.4/Dayline-1.8.4.ipa",
           "size": 2647531,
           "sha256": "495d0e7c0931f1c988e5818be451f1371cf24b26036b7ff669f3d8f396d50404",
@@ -75,5 +85,15 @@
       }
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "1.8.9 — share saves are instant",
+      "identifier": "dayline-1-8-9",
+      "caption": "Fixed the slow, sometimes-doubled share extension save; added a Comment box.",
+      "date": "2026-09-09",
+      "tintColor": "#2F9BE8",
+      "appID": "com.nirobhaq.DaylineCloud",
+      "notify": true
+    }
+  ]
 }
