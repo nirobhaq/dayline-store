@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.9.1",
+          "buildVersion": "44",
+          "date": "2026-09-19T14:55:41Z",
+          "localizedDescription": "Expenses entry polish\n• Note is a real, always-visible field under the amount, with suggestions from past notes\n• Time is one dropdown (Now · 1h ago · This morning · Yesterday · Custom…) that shows the resolved time\n• Categories are one scrollable row of icon + name chips, most-used first, with ＋ New at the end\n• ✓ sits on the keypad and lights up when amount + category are set\n• Log: total leads, month and entry count under it, period as a dropdown; taller rows with the category in the secondary line",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.9.1/Dayline-1.9.1-unsigned.ipa",
+          "size": 3630166,
+          "sha256": "800ed85e3dad81a870085cbe4ec21b6cfd8c9807660c7ca9a893c50227274295",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.0",
           "buildVersion": "43",
           "date": "2026-09-19T14:11:57Z",
