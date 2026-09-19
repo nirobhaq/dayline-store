@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.8.10",
+          "buildVersion": "42",
+          "date": "2026-09-19T12:53:59Z",
+          "localizedDescription": "Compatibility update — prepares for Expenses\n• The sync engine now tolerates record kinds it doesn't know: an unknown record no longer fails the whole sync batch and leaves the app \"offline\"; it is cached and shown once the app is updated\n• Install on every device before the Expenses feature arrives\n• No other visible changes",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.8.10/Dayline-1.8.10-unsigned.ipa",
+          "size": 2683908,
+          "sha256": "4ee0f8d114ac9c18a3b6e592f703b0348ea0523141cf8d967c21b13105d1237d",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.8.9",
           "buildVersion": "41",
           "date": "2026-09-09T05:53:19Z",
