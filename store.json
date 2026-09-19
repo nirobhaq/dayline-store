@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.9.0",
+          "buildVersion": "43",
+          "date": "2026-09-19T14:11:57Z",
+          "localizedDescription": "Expenses — a new tab for logging what you spend\n• Three taps to log: amount on the keypad, tap a category, done — your four most-used categories sit above the keypad and the last wallet is preselected\n• Whole amounts only, no decimal point\n• Time as chips: Now · 1h ago · This morning · Yesterday, plus a compact picker for anything else\n• Custom expense types: add your own categories (emoji, name, colour); they sync everywhere\n• History by day with totals, and a This month · Last month · This year switch\n• Swipe to delete with a 4-second Undo; search by note, category or exact amount\n• New \"New Transaction\" action in the Shortcuts app and Siri — logs without opening the app\n• Syncs live with the Mac; readable by nr-finance",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.9.0/Dayline-1.9.0-unsigned.ipa",
+          "size": 3656181,
+          "sha256": "40ce786fbb82b0ad8611f5a94b211d904e330f20d7b5335d35993762fdffdb94",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.8.10",
           "buildVersion": "42",
           "date": "2026-09-19T12:53:59Z",
@@ -97,10 +107,10 @@
   ],
   "news": [
     {
-      "title": "1.8.9 — share saves are instant",
-      "identifier": "dayline-1-8-9",
-      "caption": "Fixed the slow, sometimes-doubled share extension save; added a Comment box.",
-      "date": "2026-09-09",
+      "title": "1.9.0 — Expenses",
+      "identifier": "dayline-1-9-0",
+      "caption": "Log expenses in three taps, custom categories, and a New Transaction shortcut.",
+      "date": "2026-09-19",
       "tintColor": "#2F9BE8",
       "appID": "com.nirobhaq.DaylineCloud",
       "notify": true
