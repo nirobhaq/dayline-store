@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.9.2",
+          "buildVersion": "45",
+          "date": "2026-09-20T13:40:03Z",
+          "localizedDescription": "Tabs, quick add, lighter entry\n• All three tab names visible (To-Do · Bookmarks · Expenses)\n• This month's total on the Expenses add button — a soft white pill with ＋\n• Second floating button on To-Do to log an expense without switching tabs\n• Entry screen shows your top 4 categories, with a More chip that expands the row in place",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.9.2/Dayline-1.9.2-unsigned.ipa",
+          "size": 3657116,
+          "sha256": "026a1f0120583977fbf62db70ed6f22d545c5384bb3da15cbc159725b418565c",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.1",
           "buildVersion": "44",
           "date": "2026-09-19T14:55:41Z",
