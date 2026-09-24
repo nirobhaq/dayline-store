@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.9.9",
+          "buildVersion": "52",
+          "date": "2026-09-24T13:21:45Z",
+          "localizedDescription": "Amount stays centred\n• The entry screen's amount is pinned to the exact middle; the EXPENSES label and note hang off it",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.9.9/Dayline-1.9.9-unsigned.ipa",
+          "size": 3717485,
+          "sha256": "0c3a2c01aba9782d43fb68043e15bf9a64028ee1d8676cbbefee47f32690a109",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.8",
           "buildVersion": "51",
           "date": "2026-09-24T13:18:42Z",
