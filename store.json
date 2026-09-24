@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.9.8",
+          "buildVersion": "51",
+          "date": "2026-09-24T13:18:42Z",
+          "localizedDescription": "Entry screen label\n• The small EXPENSES label now sits above the amount, in capitals",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.9.8/Dayline-1.9.8-unsigned.ipa",
+          "size": 3712554,
+          "sha256": "bd38f193797140d41fa7dd0e128721c51b97dab68513e384da80324d73923b42",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.7",
           "buildVersion": "50",
           "date": "2026-09-24T13:06:28Z",
