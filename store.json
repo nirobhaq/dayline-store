@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.9.6",
+          "buildVersion": "49",
+          "date": "2026-09-24T13:03:05Z",
+          "localizedDescription": "Payment method up front\n• Entry screen's top row shows your payment methods as pills — tap to choose, tap again to clear; last used is preselected\n• Small \"Expenses\" label under the note",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.9.6/Dayline-1.9.6-unsigned.ipa",
+          "size": 3704593,
+          "sha256": "fd4d1175513685690dd760ce5e66ed232011760d37b0706892ee4cddef0fb23a",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.5",
           "buildVersion": "48",
           "date": "2026-09-24T12:58:37Z",
