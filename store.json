@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.9.5",
+          "buildVersion": "48",
+          "date": "2026-09-24T12:58:37Z",
+          "localizedDescription": "Expenses first\n• Tabs are now Expenses · To-Do · Bookmarks, and Dayline opens on Expenses",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.9.5/Dayline-1.9.5-unsigned.ipa",
+          "size": 3698709,
+          "sha256": "164a6cf7b23ccb6312b9195ebe3eda4d8dc464124ab567ad400d1aaca9bfe651",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.4",
           "buildVersion": "47",
           "date": "2026-09-24T11:55:19Z",
