@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.9.4",
+          "buildVersion": "47",
+          "date": "2026-09-24T11:55:19Z",
+          "localizedDescription": "Quieter upcoming expenses\n• Upcoming entries use a subtle grey tile with no outline; the category colour appears once the date arrives",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.9.4/Dayline-1.9.4-unsigned.ipa",
+          "size": 3698608,
+          "sha256": "62431b7bead7fe3853ce8f2c32ef32251db66989798d47eed9823e02e7445fa9",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.3",
           "buildVersion": "46",
           "date": "2026-09-24T10:53:30Z",
