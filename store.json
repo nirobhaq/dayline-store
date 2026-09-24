@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.10.1",
+          "buildVersion": "54",
+          "date": "2026-09-24T13:52:18Z",
+          "localizedDescription": "A calmer empty Bookmarks page\n• No empty card: a light bookmark glyph and two centred lines — \"Links you save will appear here. Share from any app, or tap + to add one.\"",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.10.1/Dayline-1.10.1-unsigned.ipa",
+          "size": 3721209,
+          "sha256": "ef96edc43991950a3e9fe435d3e577161b2c7ca2342bf522ad026bf03fc33f7b",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.10.0",
           "buildVersion": "53",
           "date": "2026-09-24T13:33:08Z",
