@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.10.0",
+          "buildVersion": "53",
+          "date": "2026-09-24T13:33:08Z",
+          "localizedDescription": "Category and wallet on every row\n• Each expense's second line reads time · Category · Wallet; upcoming entries lead with the date",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.10.0/Dayline-1.10.0-unsigned.ipa",
+          "size": 3717921,
+          "sha256": "3bcd070e5e4c19dad59c0675f43d1e38cbcef37485311ec39209c33dd4d3c8d3",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.9",
           "buildVersion": "52",
           "date": "2026-09-24T13:21:45Z",
