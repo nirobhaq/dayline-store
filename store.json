@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.9.7",
+          "buildVersion": "50",
+          "date": "2026-09-24T13:06:28Z",
+          "localizedDescription": "Delete key on the keypad\n• ⌫ in the keypad's bottom-left trims whatever you edited last (amount or note); hold to clear\n• Category pop-up's top button reads \"＋ Add Category\"",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.9.7/Dayline-1.9.7-unsigned.ipa",
+          "size": 3712278,
+          "sha256": "1660a4b81585b3e77eefb8fd8a92dfba7e70c21c53e90a2e8125be0d258af2fd",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.6",
           "buildVersion": "49",
           "date": "2026-09-24T13:03:05Z",
