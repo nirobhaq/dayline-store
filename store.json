@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.10.3",
+          "buildVersion": "56",
+          "date": "2026-09-24T17:30:29Z",
+          "localizedDescription": "A clearer To-Do, and a bolder total\n• To-Do grouped as Pinned · Today · Categories · Done Today\n• Your emoji are the section icons, same as the Mac\n• A small + on each section opens an input row; Return adds, ✕ closes\n• Rounded-square checkboxes with a fill-and-tick animation; checked rows settle, then glide below\n• Finished sections get a green check and fold into Done Today\n• No \"Completed\" toast\n• Expenses: centred period menu, bold SF total, \"Total Spent\" under it",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.10.3/Dayline-1.10.3-unsigned.ipa",
+          "size": 3923114,
+          "sha256": "4bb2f810d609d5eae919188a3cb927d8b344ee45caf599f6d8f26f40a40e9740",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.10.2",
           "buildVersion": "55",
           "date": "2026-09-24T15:15:29Z",
