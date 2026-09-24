@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.10.2",
+          "buildVersion": "55",
+          "date": "2026-09-24T15:15:29Z",
+          "localizedDescription": "Smoother Expenses log\n• Vertical drags on entries always scroll; swipe-to-delete only on a sideways drag\n• Total, period chip and search/filter pinned at the top\n• This Year folds earlier months into one row each (count + total); tap to expand\n• Chip reads This Month ⌄ / This Year ⌄ / Last Month ⌄\n• Faster list; no total jump after a swipe-delete",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.10.2/Dayline-1.10.2-unsigned.ipa",
+          "size": 3784773,
+          "sha256": "4353ef0a93e4b9c4868461da809d179d1eb3e52dc8761b5ec5791effd143e5c7",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.10.1",
           "buildVersion": "54",
           "date": "2026-09-24T13:52:18Z",
