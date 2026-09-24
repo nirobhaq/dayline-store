@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.9.3",
+          "buildVersion": "46",
+          "date": "2026-09-24T10:53:30Z",
+          "localizedDescription": "Expenses, redesigned\n• Ledger log: total large in the middle, compact day sections, no card — more entries on screen\n• Search and category filter at the top; period chip for this month / last month / this year\n• One big + in the middle of the bottom bar\n• New entry screen: big amount, note pill, calendar date pill, category pop-up (Edit at top), full keypad, wallet in the top-right\n• Swipe to delete works again, with Undo\n• Blue + at the top of To-Do to log an expense\n• Expenses tab icon fixed\n• No more false expiry warning on SideStore installs",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.9.3/Dayline-1.9.3-unsigned.ipa",
+          "size": 3699801,
+          "sha256": "b9036ecdb44b9f64b295fc564091652edb71d1d83ba9898d5f16314572040bb2",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.2",
           "buildVersion": "45",
           "date": "2026-09-20T13:40:03Z",
