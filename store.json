@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.10.5",
+          "buildVersion": "58",
+          "date": "2026-09-25T14:36:26Z",
+          "localizedDescription": "Cleaner To-Do cards\n• Each group's tasks sit in a softly recessed panel under the title\n• No more lines between tasks — tighter rows, more on screen\n• Tags are now rounded rectangles, same as the Mac\n• Emoji group icons show on their own, no background tile\n• The expense + is gone from the To-Do header (add expenses from the Expenses tab)",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.10.5/Dayline-1.10.5-unsigned.ipa",
+          "size": 3949134,
+          "sha256": "1ab8b8c974468fb425d00a83ad344c9eee092e1abf8794ebddc0b53d544281ea",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.10.4",
           "buildVersion": "57",
           "date": "2026-09-25T10:22:15Z",
