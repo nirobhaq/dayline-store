@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.10.6",
+          "buildVersion": "59",
+          "date": "2026-09-25T15:38:58Z",
+          "localizedDescription": "Your category order, everywhere\n• Categories appear in the order you set — on iPhone and Mac alike\n• Reorder them on the Mac (Settings › Expenses, drag the handle) and the iPhone follows\n• Renaming a category never moves it",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.10.6/Dayline-1.10.6-unsigned.ipa",
+          "size": 3943748,
+          "sha256": "93eaa1469ee934bf3bb94e0ac026e4a0679849cd32e52c58da1aa4704211c2de",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.10.5",
           "buildVersion": "58",
           "date": "2026-09-25T14:36:26Z",
