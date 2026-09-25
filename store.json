@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.10.4",
+          "buildVersion": "57",
+          "date": "2026-09-25T10:22:15Z",
+          "localizedDescription": "Note suggestions while you type\n• Typing a note on the expense screen shows your past notes that match\n• Tap one to fill the note — amount, category and wallet stay as they are\n• Best matches first: notes that start with what you typed, then recent ones",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.10.4/Dayline-1.10.4-unsigned.ipa",
+          "size": 3949009,
+          "sha256": "93d7496681409c0ad4b9113d3720333847c656750262344998f6742dc5cd1f57",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.10.3",
           "buildVersion": "56",
           "date": "2026-09-24T17:30:29Z",
