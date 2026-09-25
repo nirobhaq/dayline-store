@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.10.7",
+          "buildVersion": "60",
+          "date": "2026-09-25T17:37:56Z",
+          "localizedDescription": "Full task text, Mac tag colours, new total font\n• To-Do › gear › \"Show full task text\": wrap long tasks onto several lines, or keep them to one\n• Task tag colours now match the Mac exactly — all 16 colours, same shades\n• The Expenses total uses Sora, in a lighter weight\n• \"Share extension status…\" removed from the To-Do menu",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.10.7/Dayline-1.10.7-unsigned.ipa",
+          "size": 4011668,
+          "sha256": "359f2f96bcbe240639172a4d80b5181362043cfe94ff9cd65c4dc409b9f270ae",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.10.6",
           "buildVersion": "59",
           "date": "2026-09-25T15:38:58Z",
