@@ -19,6 +19,16 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.10.8",
+          "buildVersion": "61",
+          "date": "2026-09-25T17:57:10Z",
+          "localizedDescription": "One look across every tab\n• Expenses and the add-expense screen now share the navy background of To-Do and Bookmarks\n• The top-right settings gear is now a ••• menu button",
+          "downloadURL": "https://github.com/nirobhaq/dayline-store/releases/download/v1.10.8/Dayline-1.10.8-unsigned.ipa",
+          "size": 4008438,
+          "sha256": "76e28d78a24e43b52cc196941fe027fe993215e556278f62f68d5db18af93c2d",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.10.7",
           "buildVersion": "60",
           "date": "2026-09-25T17:37:56Z",
